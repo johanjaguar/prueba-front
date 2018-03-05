@@ -1,0 +1,38 @@
+//COLOURS
+$blue39: #39aedf;
+$brown58: #584f48;
+$graybf: #bfcccf;
+$grayee: #eee6de;
+$gray88: #888;
+$greenb1: #b1d560;
+$green98: #98be41;
+$whiteff: #fff;
+
+//SEMANTIC COLOURS: IMPORTANT, USE VARIABLES NOT RGB.
+$bg-body: $whiteff;
+
+$bg-header: $brown58;
+
+$bg-main: $blue39;
+$bg-main-form: $whiteff;
+$bg-mobile-form: $grayee;
+
+$bg-dropdown: $whiteff;
+$bg-button: $greenb1;
+
+$border-dropdown: $graybf;
+$border-mobile-lead: $blue39;
+
+$ltr-h: $blue39;
+$ltr-p: $gray88;
+$ltr-button: $whiteff;
+$ltr-dropdown-ico: $graybf;
+
+//MEDIA QUERIES VARIABLES 
+$mq-desktop: 1200px;
+$mq-tablet: 768px; 
+
+
+//FONTS 
+$fte-p: 'Open Sans', sans-serif;
+//$fte-h: 'Open Sans', sans-serif;

@@ -1,0 +1,65 @@
+.main {
+  background: $bg-main;
+
+  @media screen and (min-width: $mq-tablet) {
+    height: 24em;
+    margin-top: 10em;
+  }
+
+  &__form-box {
+    background: $bg-main-form;
+    @media screen and (max-width: $mq-tablet) {
+      padding: 0;
+    }
+
+    @media screen and (min-width: $mq-tablet) {
+      -webkit-box-shadow: 2px 0px 38px 0px rgba(0, 0, 0, 0.39);
+      -moz-box-shadow: 2px 0px 38px 0px rgba(0, 0, 0, 0.39);
+      box-shadow: 2px 0px 38px 0px rgba(0, 0, 0, 0.39);
+      transform: translateY(-6em);
+    }
+  }
+
+  &__lead {
+    @media screen and (max-width: $mq-tablet) {
+      border-bottom: 7px solid $border-mobile-lead;
+    }
+    padding: 2em 0;
+  }
+
+  &__container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: $mq-tablet) {
+  .form {
+    background: $grayee;
+    padding: 30px 15px;
+
+    &__modelo {
+      padding-right: 0;
+    }
+
+    &__anio {
+      padding-left: 0;
+    }
+  }
+}
+
+.form {
+  &__btn-box {
+    padding: 20px 15px 10px 15px;
+  }
+
+  &__recuperar {
+    padding: 20px 0 30px 0;
+    text-align: center;
+  }
+
+  &__box {
+    @media screen and (min-width: $mq-tablet) {
+      margin: 5px 0;
+    }
+  }
+}

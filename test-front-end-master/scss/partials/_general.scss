@@ -1,0 +1,85 @@
+* {
+  font-family: $fte-p;
+}
+
+body {
+  background: $bg-body;
+}
+
+h1 {
+  color: $ltr-h;
+  font-size: 30px;
+  text-align: center;
+
+  @media screen and (min-width: $mq-desktop) {
+    font-size: 43px;
+  }
+}
+
+h2 {
+  color: $ltr-p;
+  font-size: 18px;
+  text-align: center;
+
+  @media screen and (min-width: $mq-desktop) {
+    font-size: 27px;
+  }
+}
+
+.dropdown-toggle {
+  background: $bg-dropdown;
+  border-color: $border-dropdown;
+  border-radius: 0;
+  color: $ltr-p;
+  height: 50px;
+  text-align: left;
+  width: 100%;
+
+  &::after {
+    display: none;
+  }
+
+  svg.fa-chevron-down {
+    color: $ltr-dropdown-ico;
+    float: right;
+    height: 1.1em;
+    margin-top: 0.1em;
+    width: 1.1em;
+  }
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  width: 92%;
+}
+
+input[type="text"] {
+  background: $bg-dropdown;
+  border: 1px solid $border-dropdown;
+  border-radius: 0;
+  color: $ltr-p;
+  height: 50px;
+  padding: 0 15px;
+  text-align: left;
+  width: 100%;
+}
+
+
+label {
+  @media screen and (max-width: $mq-tablet) {
+    display: none;
+  }
+}
+
+.btn-primary {
+  background: $bg-button;
+  border: none;
+  -webkit-box-shadow: 0px 5px 0px 0px rgba($green98, 1);
+  -moz-box-shadow: 0px 5px 0px 0px rgba($green98, 1);
+  box-shadow: 0px 5px 0px 0px rgba($green98, 1);
+  color: $ltr-button;
+  font-size: 30px;
+  margin: 10px auto;
+  height: 65px;
+  width: 100%;
+}

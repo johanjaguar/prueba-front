@@ -1,0 +1,24 @@
+.header {
+  background: $bg-header;
+  padding: 15px;
+  
+  &__logo {
+    height: 35px;
+    width: 180px;
+    
+    @media screen and (min-width: $mq-tablet ) {
+      height: auto;
+      width: auto;
+    }
+  }
+  
+  &__logo-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    @media screen and (min-width: $mq-desktop ) {
+      justify-content: flex-start;
+    }
+  }
+}
